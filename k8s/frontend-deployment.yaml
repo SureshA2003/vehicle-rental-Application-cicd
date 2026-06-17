@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: vehicle-frontend
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: vehicle-frontend
+
+  template:
+    metadata:
+      labels:
+        app: vehicle-frontend
+
+    spec:
+      containers:
+      - name: frontend
+
+        image: suresh2003/vehicle-frontend:v1
+
+        ports:
+        - containerPort: 80
