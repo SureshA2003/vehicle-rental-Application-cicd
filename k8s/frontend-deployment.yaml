@@ -20,7 +20,7 @@ spec:
       containers:
       - name: frontend
 
-        image: suresh2003/vehicle-frontend:v1
+        image: suresh2003/vehicle-frontend:v2
 
         ports:
         - containerPort: 80
