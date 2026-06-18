@@ -20,7 +20,7 @@ spec:
       containers:
       - name: frontend
 
-        image: suresh2003/vehicle-frontend:${BUILD_NUMBER}
+        image: suresh2003/vehicle-frontend:latest
 
         ports:
         - containerPort: 80
