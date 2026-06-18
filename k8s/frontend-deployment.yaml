@@ -21,6 +21,7 @@ spec:
       - name: frontend
 
         image: suresh2003/vehicle-frontend:latest
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 80
