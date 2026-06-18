@@ -19,6 +19,7 @@ spec:
       - name: backend
 
         image: suresh2003/vehicle-backend:latest
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 8081
