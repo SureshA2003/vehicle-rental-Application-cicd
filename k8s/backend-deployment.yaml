@@ -18,7 +18,7 @@ spec:
       containers:
       - name: backend
 
-        image: suresh2003/vehicle-backend:v5
+        image: suresh2003/vehicle-backend:${BUILD_NUMBER}
 
         ports:
         - containerPort: 8081
